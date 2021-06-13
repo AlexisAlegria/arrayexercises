@@ -5,3 +5,8 @@ let prepender = function(name){
 };
 
 //your code here
+let newArray = names.map(function(value){
+    return 'My name is: ' + value;
+})
+console.log(newArray);
+
