@@ -1,6 +1,14 @@
-// Code goes here
+const matrixBuilder = (matrix) => {
 
+    let newMatrix = [];
+    let newArray = [];
 
-
-// do not change anything from this line down
-console.log(matrixBuilder(5))
+    for(x=0; x < matrix; x++){
+        newMatrix.push(newArray)
+    }
+    for(i=0; i < matrix; i++){
+        newArray.push(1)
+    }
+    return newMatrix;
+}
+console.log(matrixBuilder(5));

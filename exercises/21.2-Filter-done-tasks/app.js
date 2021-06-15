@@ -8,5 +8,8 @@ let tasks = [
 	{ label: 'Read a book', done: true },
 	{ label: 'Make a trip', done: false }
 ];
-
 //your code here
+
+let tasksUndone = tasks.filter(item => item.done === true);
+
+console.log(tasksUndone);
